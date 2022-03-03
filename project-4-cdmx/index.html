@@ -1,0 +1,39 @@
+<html lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <title>Mexico City Vacation Rental Trends</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <div class='container'>
+    <div class='sidebar'>
+      <h3> Mexico City</h3>
+      <h4>Vacation Rental Trends</h4>
+      <div class="slidecontainer">
+        <input type="range" min="2018" max="2021" value="4" step="1" class="slider" id="slider" list="tickmarks">
+          <div id="tickmarks">
+            <p>2018</p>
+            <p>2019</p>
+            <p>2020</p>
+            <p>2021</p>
+      </div>
+  </div>
+  <div class='body-text'>
+    <p>COVID-19 led to a decrease in travel and changes in traveller preferences. Here, AirBnB reviews serve as a proxy for the number of travellers.</p>
+      <p>Move the slider to change years and click on neighborhoods to see how the number of reviews changed over the years.</p>
+    </div>
+  <div class="neighborhood-info"></div>
+</div>
+  <div id='mapContainer'></div>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+  <script src="js/scripts.js"></script>
+</div>
+</body>
+</html>

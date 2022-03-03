@@ -1,0 +1,83 @@
+#mapContainer {
+  backgroundColor: #ccc;
+  flex-grow: 1;
+  height: 100%;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%
+}
+
+.sidebar {
+  width: 400px;
+  height: 100%;
+  padding: 15px;
+}
+
+.sidebar h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.sidebar h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.sidebar h5 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.sidebar p {
+  font-size: 15px;
+  font-style: italic;
+  margin: 15px;
+}
+
+.sidebar img {
+  position: relative;
+  max-width: 100%;
+}
+
+.sidebar figcaption {
+  font-size: 10px;
+  font-style: italic
+}
+
+.slidecontainer input {
+  width: 100%;
+  margin-right: 10px 10px;
+  padding: 10px 10px;
+}
+
+/* tickmark styling
+source: https://codepen.io/anon/pen/PMQKdp */
+#tickmarks {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.neighborhood-info table {
+  margin: auto;
+  height: 10%;
+  font-size: 15px;
+}
+
+.neighborhood-info thead tr {
+  text-align: left;
+}
+
+.neighborhood-info th, .neighborhood-info td {
+  text-align: right;
+  padding: 12px 15px;
+}
